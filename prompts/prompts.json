@@ -1,0 +1,4 @@
+{
+    "generator_iteration": "Write exactly 3 creative one-line jokes using wordplay or puns.\n\nReference joke:\n<<CURRENT_BEST>>\n\nInstructions:\n- jokes can change topic; do not stay limited to the reference\n- prioritize clever wordplay, double meanings, or surprising punchlines\n- each joke must be ONE sentence\n- maximum 16 words\n- avoid explanations or setup paragraphs\n- aim for cleverness, not safe humor\n\nOutput exactly:\nJOKE_1: <text>\nJOKE_2: <text>\nJOKE_3: <text>",
+    "coach_best": "Select the best joke.\n\nReference joke:\n<<CURRENT_BEST>>\n\nCandidates:\nJOKE_1: <<JOKE_1>>\nJOKE_2: <<JOKE_2>>\nJOKE_3: <<JOKE_3>>\n\nEvaluation rules:\n- prefer the joke with the cleverest wordplay\n- prefer surprising punchlines\n- reject jokes that are long explanations\n- shorter jokes are usually better\n- originality beats similarity to the reference\n\nReturn exactly:\nBEST_INDEX: <1 or 2 or 3>"
+}
